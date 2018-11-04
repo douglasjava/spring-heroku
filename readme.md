@@ -27,11 +27,11 @@ Import as *Existing Maven Project* and run it as *Spring Boot App*.
 
 ### Usage
 
-Comando Heroku
+###Comando Heroku
 
--- heroku login
--> douglasmarquesdias@hotmail.com
--> Senha
+*** heroku login *** 
+### email
+### Senha
 
 ####Criando projeto
 heroku create aw-contatos-api (nome projeto)
