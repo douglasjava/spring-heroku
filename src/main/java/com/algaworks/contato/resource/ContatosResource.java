@@ -48,8 +48,7 @@ public class ContatosResource {
 	}
 	
 	@PutMapping("/{id}")
-	public ResponseEntity<Contato> atualizar(@PathVariable Long id, 
-			@Valid @RequestBody Contato contato) {
+	public ResponseEntity<Contato> atualizar(@PathVariable Long id, @Valid @RequestBody Contato contato) {
 		Contato existente = contatos.getOne(id);
 		
 		if (existente == null) {
