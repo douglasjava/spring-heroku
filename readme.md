@@ -27,24 +27,24 @@ Import as *Existing Maven Project* and run it as *Spring Boot App*.
 
 ### Usage
 
-###Comando Heroku
+#### Comandos Heroku
 
-*** heroku login *** 
-### email
-### Senha
+#### heroku login
+- email
+- Senha
 
-####Criando projeto
+#### Criando projeto
 heroku create aw-contatos-api (nome projeto)
 
-####Configurando banco
+#### Configurando banco
 heroku addons:create heroku-postgresql:hobby-dev
 
-####Enviado para o git do heroku
+#### Enviado para o git do heroku
 git push heroku master
 
-####Visualizar logs
+#### Visualizar logs
 Heroku logs --tails
 
-####Abrir aplicação
+#### Abrir aplicação
 heroku open
 
